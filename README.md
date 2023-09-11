@@ -1,4 +1,4 @@
-# Get_Next_Line
+# ![GNL](https://github.com/Eduu19/42-project-badges/raw/main/badges/get_next_linem.png) Get Next Line!
 The get_next_line function reads one line at a time, stores it in the string passed as an argument, and returns 1 to indicate that a line has been successfully read, 0 to indicate the end of the file (EOF), or -1 to indicate an error.
 
 This function is particularly useful in scenarios where you need to process large text files or data streams, line by line, without loading the entire content into memory at once. It can be valuable, for example, when reading log files, processing real-time data, or creating programs that interact with text inputs incrementally.
