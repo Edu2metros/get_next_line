@@ -1,9 +1,11 @@
-# ![GNL](https://github.com/Eduu19/42-project-badges/raw/main/badges/get_next_linem.png) Get Next Line!
-The get_next_line function reads one line at a time, stores it in the string passed as an argument, and returns 1 to indicate that a line has been successfully read, 0 to indicate the end of the file (EOF), or -1 to indicate an error.
+<h1 align="center"><strong>GET NEXT LINE - @42SP</strong></h1>
 
-This function is particularly useful in scenarios where you need to process large text files or data streams, line by line, without loading the entire content into memory at once. It can be valuable, for example, when reading log files, processing real-time data, or creating programs that interact with text inputs incrementally.
+<p align="center">This was the first project of the 42 curriculum. The project aims to recreate several functions from the standard libc.</p>
 
-Tradução em inglês:
-The get_next_line function reads one line at a time, stores it in the provided string argument, and returns 1 to signify a successful line read, 0 to indicate the end of the file (EOF), or -1 to signal an error.
+<p align="center"><a href="https://www.42sp.org.br/" target="_blank"><img src="https://img.shields.io/static/v1?label=&message=SP&color=000&style=for-the-badge&logo=42""></a></p>
+<p align="center"><img src="https://github.com/ayogun/42-project-badges/raw/main/badges/get_next_linem.png"> </p>
+ <p align="center">Nota: <strong>125/100</strong> ✔️ </p>
 
-This function is especially beneficial in situations where you need to process extensive text files or data streams, line by line, without loading the entire content into memory simultaneously. It proves useful, for instance, when parsing log files, handling real-time data, or developing programs that interact with textual input incrementally.
+<h2 align="center"><strong>What is the Get Next Line?</strong></h2>
+
+The Get Next Line is a function that needs to read a file line by line and return the line read. The function should be able to read from multiple file descriptors without losing the reading thread.
